@@ -7,10 +7,7 @@
  * // hour is 0-11
  * Good Morning!
  *
- var time = "0 - 11";
- if( time === "0 - 11") {
-   console.log("Good Morning")
- }
+ 
  * // hour is 12-16
  * Good Afternoon! 
  *
@@ -47,4 +44,22 @@
 
 
 
-console.log(true)
+
+function greet(time) {
+ if( time >= 0 && time<= 11) {
+   console.log("Good Morning")
+ }
+else if( time >= 12 && time <= 16) {
+   console.log("Good Afternoon")
+ }
+else ( time >= 17 && time <= 21) {
+   console.log("Good Evening")
+ }
+ else( time >= 22 && time <= 24) {
+   console.log("Good night")
+ }
+}
+
+ 
+
+ 
