@@ -11,24 +11,12 @@
  * // hour is 12-16
  * Good Afternoon! 
  *
- var time = "12 - 16";
- else if( time === "12 - 16") {
-   console.log("Good Afternoon")
- }
  * // hour is 17-21
  * Good Evening!
  *
- var time = "17 - 21";
- else( time === "17 - 21") {
-   console.log("Good Evening")
- }
  * // hour is 22-24 
  * Good Night!
  *
- var time = "22 - 24";
- if( time === "22 - 24") {
-   console.log("Good night")
- }
  * TIPS: 
  * 
  *   a. At what threshold does morning become afternoon? What comparison 
@@ -46,16 +34,16 @@
 
 
 function greet(time) {
- if( time >= 0 && time<= 11) {
+ if( time >= 0 && time<= 11){
    console.log("Good Morning")
  }
-else if( time >= 12 && time <= 16) {
+else if( time >= 12 && time <= 16){
    console.log("Good Afternoon")
  }
-else ( time >= 17 && time <= 21) {
+else if( time >= 17 && time <= 21){
    console.log("Good Evening")
  }
- else( time >= 22 && time <= 24) {
+ else( time >= 22 && time <= 24){
    console.log("Good night")
  }
 }
